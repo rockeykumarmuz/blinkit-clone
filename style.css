@@ -1,0 +1,288 @@
+
+.location>h5 {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.scrollable-section {
+    width: 1280px !important;
+}
+
+.location>p {
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.vertical-line {
+    height: 55px;
+    border-left: 2px solid #f2f2f2;
+}
+
+.search-div {
+    padding: 0px 12px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    background: rgb(248, 248, 248);
+    color: rgb(130, 130, 130);
+}
+
+.search-div>input {
+   border: none;
+   /* it ensures that background clr is similar to current color */
+   background-color: transparent;
+   width: 40vw;
+   height: 45px;
+}
+/*  it is pseudo elements  */
+::placeholder {
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+
+.my-cart {
+    background-color: rgb(12,131,31) !important;
+    font-size: 14px !important;
+}
+
+.my-categories {
+    width: 85%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+#mypara {
+    white-space: nowrap;
+}
+
+.container1 {
+    margin: auto;
+    width: 82%;
+    overflow-x: auto;
+}
+
+.my-list {
+    white-space: nowrap !important;
+}
+
+.my-list>img {
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.my-card {
+    width: 179px !important;
+    margin-inline: 10px;
+}
+
+.my-card-time {
+    width: fit-content;
+    border-radius: 4px;
+    padding: 0px 4px;
+    background-color: rgb(248, 248, 248);
+    align-items: center;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54) ;
+}
+
+.stopwatch {
+    padding-right: 4px !important;
+}
+
+.my-price {
+    margin-left: 10px !important;
+}
+
+.my-card-title {
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.my-price {
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 11px;
+}
+
+.my-card-weight {
+    color: #666666;
+    font-size: 13px;
+}
+
+.mrp {
+    color: #666666;
+    font-size: 12px;
+}
+
+.my-categories {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-categories {
+    width: 85%;
+    margin: auto;
+}
+
+.my-categories-row {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.my-card {
+    margin: 10px;
+}
+
+.download {
+    font-family: Okra;
+    color: #666666;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 16px;
+}
+
+.my-footer {
+    width: 82% !important;
+    margin: auto !important;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.row-3 {
+    text-align: justify;
+    font-size: 13px;
+    color: #666666;
+    padding: 10px !important;
+}
+
+.social-media {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.social-media-box {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: black;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-inline: 10px;
+    
+}
+
+.row-2>p {
+    width: 35%;
+    text-align: justify;
+    font-size: 13px;
+    color: #666666;
+}
+
+.social-media {
+    display: flex;
+}
+
+.table-data>a {
+    color: #666666;
+    text-decoration: none !important;
+}
+
+.row-1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-1 {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.useful-links {
+    flex: 2;
+}
+
+.categories-links {
+    flex: 3;
+}
+
+.items-color {
+    color: #666666;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    color: #666666;
+    font-size: 14px;
+    padding: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    nav, .row-1, .row-3 {
+        flex-direction: column !important;
+    }
+
+    .vertical-line, .hero-section > img {
+        display: none !important;
+    }
+    
+    .nav-btns, .row-2>p, .search-div {
+        width: 95%;
+    }
+
+    .row-1>div {
+        margin-top: 20px;
+    }
+
+    .useful-links, .categories-links {
+        text-align: center;
+    }
+
+    td {
+        text-align: center;
+    }
+    
+}
+
+.my-card-weight {
+    text-align: left !important;
+    padding-bottom: 15px !important;
+}
+
+
+.own-footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(75, 246, 226);
+    color: black;
+    font-size: larger;
+}
+
+
+h2 {
+    margin-left: 27px !important;
+    margin-top: 40px !important;
+}
